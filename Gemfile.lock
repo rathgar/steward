@@ -114,6 +114,9 @@ GEM
       guard (~> 2.2)
       guard-compat (~> 1.1)
     guard-compat (1.2.1)
+    guard-haml (1.1.2)
+      guard (~> 2.0)
+      haml (>= 3.0)
     guard-rails (0.8.1)
       guard (~> 2.11)
       guard-compat (~> 1.0)
@@ -214,6 +217,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     regexp_parser (1.6.0)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -310,7 +314,9 @@ DEPENDENCIES
   database_cleaner
   factory_bot_rails
   faker
+  guard
   guard-bundler
+  guard-haml
   guard-rails
   guard-rspec
   haml-rails
@@ -328,6 +334,7 @@ DEPENDENCIES
   rb-fchange
   rb-fsevent
   rb-inotify
+  rb-readline
   rspec-rails
   sass-rails (~> 5.0)
   selenium-webdriver
