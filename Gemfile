@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '2.3.1'
+ruby '2.6.2'
 gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
@@ -23,7 +23,7 @@ group :test do
   gem 'chromedriver-helper'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'haml-rails'
 gem 'high_voltage'
 gem 'jquery-rails'
